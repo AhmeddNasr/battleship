@@ -6,7 +6,6 @@ function shipGenerator() {
     for(let i = 0; i < lengths.length; i++) {
         ships.push(ship('h', lengths[i]));
     }
-    console.log(ships);
     return ships;
 }
 

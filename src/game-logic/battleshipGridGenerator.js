@@ -27,7 +27,6 @@ function battleshipGridGenerator() {
             grid = tempGrid;
         }
     }
-    console.log(grid);
     return grid;
 }
 
