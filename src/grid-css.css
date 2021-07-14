@@ -1,4 +1,4 @@
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(10, 31px);
     grid-template-rows: repeat(10, 31px);
@@ -9,15 +9,32 @@
     margin: 1px;
 }
 
-.empty-square{
+.empty-square {
     background-color: rgba(137, 211, 221, 0.747);
 }
 
-.full-square{
+.full-square {
     background-color: rgb(196, 196, 196);
-    box-shadow:inset 0px 0px 0px 1px rgb(150, 150, 150);
+    box-shadow: inset 0px 0px 0px 1px rgb(150, 150, 150);
 }
 
-.proximity-square{
-    background-color: rgb(137, 211, 221)
+.proximity-square {
+    background-color: rgb(137, 211, 221);
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.miss-square {
+    background-color: rgba(221, 137, 137, 0.527);
+}
+
+.hit-square {
+    background-color: rgb(252, 73, 73);
+}
+
+.miss-square:hover,
+.hit-square:hover {
+    cursor: initial;
 }
